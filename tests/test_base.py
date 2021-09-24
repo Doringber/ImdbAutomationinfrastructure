@@ -7,7 +7,6 @@ from termcolor import colored
 from selenium import webdriver
 
 
-
 MESSAGE_TEST_START_RUNNING = '\n===============| Test "%s" Started Running |==============='
 MESSAGE_TEST_FINISHED_RUNNING = '===============| Test "%s" Finished Running |===============\n'
 

@@ -6,16 +6,13 @@ from pages.result_page import ResultPage
 from .test_base import TestBase
 from termcolor import colored
 
-
-
-
 @mark.smoke
 @mark.search_movie
 def test_click_first_button(chrome_browser):
     result_page = ResultPage(driver=chrome_browser)
     home_page = HomePage(driver=chrome_browser)
 
-    print(colored('Step 1: open {} ', 'blue').format(str(home_page.url)))
+    print(colored(' Step 1: open {} ', 'blue').format(str(home_page.url)))
     chrome_browser.get('https://www.imdb.com')
 
     print(colored('Step 2: search homeland ', 'blue'))

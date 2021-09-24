@@ -36,8 +36,25 @@ class HomePage(BasePage):
 
     @property
     def opening_this_week_first_movie(self):
-        locator = Locator(by=By.XPATH, value="//*[@class='title']//a")
+        locator = Locator(by=By.XPATH, value="//span[@class='SlideCaption__WithPeekCaptionHeadingText-u5mma4-4 cfvKkH'][1]")
         return BaseElement(
             driver=self.driver,
             locator=locator
         )
+
+    @property
+    def menu_button(self):
+        locator = Locator(by=By.ID, value="imdbHeader-navDrawerOpen--desktop")
+        return BaseElement(
+            driver=self.driver,
+            locator=locator
+        )
+
+    @property
+    def menu_list_DVD(self):
+        locator = Locator(by=By.XPATH, value="//a[.='DVD & Blu-ray Releases']")
+        return BaseElement(
+            driver=self.driver,
+            locator=locator
+        )
+
