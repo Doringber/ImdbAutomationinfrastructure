@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4730aaf4-ea9e-484a-a7f1-e6b61d6f2433" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JenkinsFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-v3.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/wait-for-it.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_imdb_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_imdb_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_movie_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,15 +108,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-test-calculator" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\DorAutomation\ImdbAutomationinfrastructure\tests" />
+      <recent name="C:\DorAutomation\ImdbAutomationinfrastructure" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\DorAutomation\ImdbAutomationinfrastructure\tests" />
       <recent name="$PROJECT_DIR$/../ImdbAutomationinfrastucture/tests" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for tests.test_imdb_home.test_click_first_button">
+    <configuration name="BuildDocker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_menu.test_menu_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="ImdbAutomationinfrastucture" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +203,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.BuildDocker" />
       <item itemvalue="Python tests.Python tests for tests.test_imdb_home.test_click_first_button" />
       <item itemvalue="Python tests.Python tests for test_one.test_file1_method1" />
       <item itemvalue="Python tests.Python tests for test_one.test_file1_method2" />
@@ -278,6 +298,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,17 +359,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <line>11</line>
+          <line>13</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
