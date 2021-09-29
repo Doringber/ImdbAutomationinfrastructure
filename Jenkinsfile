@@ -1,7 +1,18 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('build') {
+      agent {
+        docker {
+                  image 'python:3-alpine'
+              }
+            }
+       steps {
+                withEnv(["HOME=${env.WORKSPACE}"]) {
+                    sh 'pip install -r ./requirements.txt'
+                    sh 'pytest -m smoke'
+                }
+            }
       steps {
         echo 'Build and git'
       }
