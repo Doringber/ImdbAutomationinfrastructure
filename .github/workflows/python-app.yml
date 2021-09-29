@@ -25,10 +25,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: run Docker
-      run: |
-        docker-compose -f docker-compose-v3.yml up
 
     - name: Test with pytest
       run: |
-        pytest
+        pytest -m smoke
