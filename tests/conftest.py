@@ -11,7 +11,7 @@ def chrome_browser():
 
     options = Options()
     options.add_argument("--headless")
-    browser = webdriver.Remote(command_executor="http://localhost:4444/wd/hub",desired_capabilities=DesiredCapabilities.CHROME)
+    browser = webdriver.Remote(command_executor="http://localhost:4444",desired_capabilities=DesiredCapabilities.CHROME)
     # browser = webdriver.Chrome(ChromeDriverManager().install())
     browser.implicitly_wait(5)
     browser.maximize_window()
