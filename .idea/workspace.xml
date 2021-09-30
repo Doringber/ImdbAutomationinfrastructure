@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4730aaf4-ea9e-484a-a7f1-e6b61d6f2433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_imdb_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_imdb_home.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <recent name="$PROJECT_DIR$/../ImdbAutomationinfrastucture/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_imdb_home.test_click_first_button">
+  <component name="RunManager" selected="Python tests.Python tests for test_menu.test_menu_title">
     <configuration name="BuildDocker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -210,8 +211,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_imdb_home.test_click_first_button" />
         <item itemvalue="Python tests.Python tests for test_menu.test_menu_title" />
+        <item itemvalue="Python tests.Python tests for tests.test_imdb_home.test_click_first_button" />
         <item itemvalue="Python tests.Python tests for tests.test_menu" />
         <item itemvalue="Python tests.Python tests for test_one.test_file1_method2" />
         <item itemvalue="Python tests.Python tests for test_one.test_file1_method1" />
@@ -328,7 +329,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>10</line>
+          <line>9</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -352,7 +353,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -372,7 +373,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -394,6 +395,16 @@
           <url>file://$PROJECT_DIR$/tests/test_menu.py</url>
           <line>11</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pages/home_page.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_menu.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

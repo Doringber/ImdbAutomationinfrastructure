@@ -6,7 +6,6 @@ from pages.result_page import ResultPage
 from .test_base import TestBase
 from termcolor import colored
 
-@mark.smoke
 @mark.search_movie
 def test_click_first_button(chrome_browser):
     result_page = ResultPage(driver=chrome_browser)
