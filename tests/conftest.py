@@ -11,8 +11,11 @@ def chrome_browser():
 
     options = Options()
     options.add_argument("--headless")
-    browser = webdriver.Remote(command_executor="http://localhost:4444",desired_capabilities=DesiredCapabilities.CHROME)
-    # browser = webdriver.Chrome(ChromeDriverManager().install())
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    # browser = webdriver.Remote(command_executor="http://localhost:4444",desired_capabilities=DesiredCapabilities.CHROME)
+    browser = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     browser.implicitly_wait(5)
     browser.maximize_window()
     return browser
