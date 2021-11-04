@@ -3,7 +3,6 @@ from pytest import mark
 from common.logger import Logger
 from pages.home_page import HomePage
 from pages.result_page import ResultPage
-from .test_base import TestBase
 from termcolor import colored
 
 @mark.smoke

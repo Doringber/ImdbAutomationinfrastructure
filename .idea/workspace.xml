@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4730aaf4-ea9e-484a-a7f1-e6b61d6f2433" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_imdb_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_imdb_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="yaml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-test-calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flaskReact/app" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +122,7 @@
       <recent name="$PROJECT_DIR$/../ImdbAutomationinfrastucture/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_menu.test_menu_title">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_imdb_home.test_click_first_button">
     <configuration name="BuildDocker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -212,8 +212,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_menu.test_menu_title" />
         <item itemvalue="Python tests.Python tests for tests.test_imdb_home.test_click_first_button" />
+        <item itemvalue="Python tests.Python tests for test_menu.test_menu_title" />
         <item itemvalue="Python tests.Python tests for tests.test_menu" />
         <item itemvalue="Python tests.Python tests for test_one.test_file1_method2" />
         <item itemvalue="Python tests.Python tests for test_one.test_file1_method1" />
@@ -330,7 +330,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>10</line>
+          <line>9</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -354,7 +354,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>11</line>
+          <line>10</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -374,7 +374,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_imdb_home.py</url>
-          <line>18</line>
+          <line>17</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
