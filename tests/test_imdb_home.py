@@ -11,7 +11,7 @@ def test_click_first_button(chrome_browser):
     result_page = ResultPage(driver=chrome_browser)
     home_page = HomePage(driver=chrome_browser)
 
-    print(colored(' Step 1: open {} ', 'blue').format(str(home_page.url)))
+    print(colored('Step 1: open {} ', 'blue').format(str(home_page.url)))
     chrome_browser.get('https://www.imdb.com')
 
     print(colored('Step 2: search homeland ', 'blue'))
@@ -22,6 +22,7 @@ def test_click_first_button(chrome_browser):
 
     print(colored('Step 4: Verify result header', 'blue'))
     test = result_page.result_header.text
+    print (test)
     Logger.get_instance().log_assert(test is not None, 'Failed finding search header')
 
 

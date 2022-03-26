@@ -14,12 +14,12 @@ class HomePage(BasePage):
         return BaseElement(
             driver=self.driver,
             locator=locator
-
         )
 
     @property
     def search_button(self):
-        locator = Locator(By.ID, 'suggestion-search-button')
+        locator = Locator(by=By.ID, value='suggestion-search-button')
+        print(locator)
         return BaseElement(
             driver=self.driver,
             locator=locator
