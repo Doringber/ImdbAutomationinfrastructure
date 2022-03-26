@@ -1,0 +1,2 @@
+[34m Step 1: open https://www.imdb.com/ [0m
+[34mStep 2: Tap on first movie on opening week  [0m

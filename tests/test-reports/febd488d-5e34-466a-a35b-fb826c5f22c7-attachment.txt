@@ -1,0 +1,6 @@
+[34mStep 1: open https://www.imdb.com/ [0m
+[34mStep 2: search homeland [0m
+[34mStep 3: Click on search button [0m
+Locator(by='id', value='suggestion-search-button')
+[34mStep 4: Verify result header[0m
+"homeland"

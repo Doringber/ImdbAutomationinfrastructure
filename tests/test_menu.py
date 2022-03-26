@@ -4,7 +4,7 @@ from common.logger import Logger
 from pages.home_page import HomePage
 from termcolor import colored
 
-@mark.search_movie_titlepy
+@mark.search_movie_title
 def test_menu_title(chrome_browser):
     home_page = HomePage(driver=chrome_browser)
 

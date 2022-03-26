@@ -31,4 +31,6 @@ jobs:
         scripts/installChrome.sh
     - name: Test with pytest
       run: |
-        pytest -m smoke
+        pytest -m smoke --alluredir=tests/test-reports
+        allure serve tests/test-reports
+
