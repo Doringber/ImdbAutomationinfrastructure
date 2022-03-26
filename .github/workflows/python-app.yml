@@ -29,6 +29,10 @@ jobs:
       run: |
        chmod +x scripts/installChrome.sh
         scripts/installChrome.sh
+    - name: Install Allure
+      run: |
+        brew update
+        brew install allure
     - name: 📂 Step 3 - Create a temp artifact folder named `output`
       run: |
         mkdir output
