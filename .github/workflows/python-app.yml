@@ -36,7 +36,7 @@ jobs:
       run: |
         pytest -m smoke --alluredir=tests/test-reports
     - name: 📊 Step 5 - Collect Allure files and generate allure-report folder
-        run: |
+      run: |
           allure generate output/
     - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
         uses: actions/upload-artifact@v2
